@@ -140,7 +140,7 @@ def main():
     ## The Dashboard Title (You can change here)
     st.title("AP Hackathon - Dashboard")
 
-    st_autorefresh(interval=1 * 60 * 1000, key="data_refresh")  # Set interval to 5 minutes
+    st_autorefresh(interval=30 * 1000, key="data_refresh")  # Set interval to 5 minutes
     # URL to your Google Sheets data
     ## Datasource url / Google Sheets CSV
     sheet_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ0DK7DqYpQQwLsb93-fbhDN1NhHLO9P7GNhyceIwWdj5EOFInWSflTbvDYrakkuEJlDHgDV25kP9w/pub?gid=1562137798&single=true&output=csv"
